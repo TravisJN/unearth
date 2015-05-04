@@ -1,4 +1,6 @@
 var drawMap = function(coordinates) {
+  coordinates = coordinates || [0,0];
+
   L.mapbox.accessToken = 'pk.eyJ1IjoidHJhdmlzam4iLCJhIjoiV3lfS1NiayJ9.6b0J09RJM9dBc_Nn_VpvZg';
 
   var mapViewStart = [37.782551, -122.445368];  // Coordinates of center point of map on load
